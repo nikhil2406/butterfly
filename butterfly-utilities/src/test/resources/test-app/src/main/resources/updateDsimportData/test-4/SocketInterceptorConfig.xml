@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ebay:config-category-file
+ xmlns:ebay="http://www.ebay.com"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+>
+  <config-category id="com.ebay.socket.intercept" alias="com.ebay.socket.intercept_unknown"
+                   group="ebay.kernel" site-ops-command="true"
+                   initializable="false"
+                   category-desc="Socket interceptor configuration attributes"
+                   persist-updates="false" timestamp="Sat Jan 24 00:26:01 PST 2004"
+                   Validator="com.ebay.kernel.bean.configuration.adapter.ConfigManagementValidatorAdapter" >
+    <attribute name="EXTERNAL_MUTABLE" value="true" type="java.lang.Boolean" />
+  
+    <attribute name="enabled" value="true" type="java.lang.Boolean" /> 
+    <attribute name="implType" value="JAVA_ONLY" type="java.lang.String" />
+    <attribute name="overridePC" value="true" type="java.lang.Boolean" />
+    <attribute name="LOAD_FACTORY_ON_STARTUP" value="true" type="java.lang.Boolean" />
+     
+    <attribute name="layerPatterns" value="DAL.datasource.*;DAL.query.*.*" type="java.lang.String" />
+    <attribute name="connectTimeout" value="100" type="java.lang.String" />
+    <attribute name="readTimeout" value="5" type="java.lang.String" />
+</config-category>
+</ebay:config-category-file>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ebay:config-category-file
+ xmlns:ebay="http://www.ebay.com"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+>
+  <config-category id="com.ebay.socket.intercept" alias="com.ebay.socket.intercept_unknown"
+                   group="ebay.kernel" site-ops-command="true"
+                   initializable="false"
+                   category-desc="Socket interceptor configuration attributes"
+                   persist-updates="false" timestamp="Sat Jan 24 00:26:01 PST 2004"
+                   Validator="com.ebay.kernel.bean.configuration.adapter.ConfigManagementValidatorAdapter" >
+
+</config-category>
+</ebay:config-category-file>
